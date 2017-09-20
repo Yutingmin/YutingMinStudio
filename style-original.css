@@ -21,8 +21,9 @@ body {
 header {
     background-color: #FFF;
 	padding-bottom: 10px;
-    padding-left: 350px;
+    padding-left: 0px;
     padding-top: 10px;
+	text-align: center;
 }
 
 nav {
@@ -30,6 +31,7 @@ nav {
     padding-bottom: 10px;
     padding-left: 10px;
     padding-top: 10px;
+	text-align: center;
     /*
 margin-top: -25px;
 margin-bottom: -25px;
@@ -49,18 +51,31 @@ li {
 
 .nav-links:visited {
     color: #4C4C4C;
-    text-decoration: none;
+    text-decoration:none;
 }
+
+.nav-links:hover {
+    color: lightblue;
+}
+
+.current-page {
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+
 
 article {
     background-color: #FFF;
     padding-bottom: 20px;
+    text-align: center;
 }
 
 .reference-image {
     left: 150px;
     padding: 10px 10px 15px 0;
-    position: relative;
+    position: center;
+	
 }
 
 h1 {
@@ -69,6 +84,7 @@ h1 {
     font-family:"Courier New", Courier, monospace;
     font-size: 2.1875em;
     padding: 25px 25px 25px 15px;
+	text-align: center;
 
 }
 
@@ -80,6 +96,7 @@ h2 {
     padding-bottom: 20px;
     padding-left: 25px;
     padding-top: 20px;
+	text-align: center;
 }
 
 h3 {
@@ -90,6 +107,7 @@ h3 {
     padding-bottom: 15px;
     padding-left: 40px;
     padding-top: 15px;
+	text-align: center;
 }
 
 p {
@@ -97,5 +115,6 @@ p {
     font-size: .9375em;
     padding: 20px;
     padding-left: 40px;
+	text-align: center;
     
 }
