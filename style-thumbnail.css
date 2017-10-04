@@ -27,6 +27,18 @@ body {
     background-size: cover;
 }
 
+.main-nav {
+width: 80%;
+margin: 2em auto .5em auto;
+min-height: 5em;
+background-color: #EAAF31;
+/*Add a 6px border radius on all four corners*/
+-webkit-border-radius: 6px;
+border-radius: 6px;
+/*Add a faint shadow around the box*/
+-webkit-box-shadow: 0 0 6px 3px #DBDBDB;
+box-shadow: 0 0 6px 3px #DBDBDB;
+}
 
 * {
     margin: 0;
